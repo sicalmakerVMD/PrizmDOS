@@ -1,2 +1,50 @@
+
 # PrizmDOS
+
 MS-DOS simulator for the CASIO Prizm calculator line, written in MicroPython.
+
+
+## Features
+
+- File and directory management with DIR, CD, MD, RD COPY, DEL, REN, MOVE TYPE, TREE, and DELTREE.
+- Wildcard support with ? and *.
+- Environment variables with SET, PATH, and %VAR% expansion.
+- Customizable command prompt using $P, $G, and $N prompt codes.
+- Output redirection with > and >>, including support for NUL.
+. Built-in text editor via EDIT, with line insertion, editing, deletion, and saving.
+- DOS utilities and system commands: HELP, VER, VOL, LABEL, DATE, TIME, MEM, CHKDSK, MODE, CLS, FIND.
+- Virtual disk simulation with a 32 MB simulated C: drive and volume label support.
+- Batch file support with CALL, GOTO, IF, PAUSE, REM %0, SHIFT and ECHO ON/OFF.
+- Disk persistance using SAVEFS and LOADFS.
+- Formatting simulation through FORMAT C:
+## Authors
+
+- [@sicalmakervmd](https://www.github.com/sicalmakervmd)
+
+
+## Contributing
+
+You're welcome to edit PrizmDOS' source code and improve its overall functionality. If you wish to see what you made in future updates, feel free to drop a pull request!
+
+
+## FAQ
+
+#### Is this a real version of MS-DOS?
+
+No. PrizmDOS is a simulation. It recreates the behavior and appearance of selected DOS commands.
+
+#### What commands are supported?
+
+Use HELP inside PrizmDOS to see the available commands.DIR, CD, MD, RD, COPY, DEL, REN, MOVE, TYPE, TREE, EDIT, FIND, SET, PATH, PROMPT, FORMAT, SAVEFS, LOADFS, and an easter egg or two.
+
+#### Does it support batch files?
+
+Yes. PrizmDOS supports .BAT files and includes CALL, GOTO, IF, PAUSE, REM, ECHO, argument expansion, and SHIFT.
+
+#### Does it have a real filesystem?
+
+Don't expect much from someone who vibecoded a Python script. The C: drive is represented internally as a simulated directory/file structure. Files can optionally be saved to and loaded from a real file using SAVEFS and LOADFS.
+
+#### Can I run real .EXE or .COM programs?
+
+Executables are only simulated, so no.
