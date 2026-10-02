@@ -40,7 +40,7 @@ No. PrizmDOS is a simulation. It recreates the behavior and appearance of select
 
 #### What commands are supported?
 
-Use HELP inside PrizmDOS to see the available commands.DIR, CD, MD, RD, COPY, DEL, REN, MOVE, TYPE, TREE, EDIT, FIND, SET, PATH, PROMPT, FORMAT, SAVEFS, LOADFS, and an easter egg or two.
+Use HELP inside PrizmDOS to see the available commands. DIR, CD, MD, RD, COPY, DEL, REN, MOVE, TYPE, TREE, EDIT, FIND, SET, PATH, PROMPT, FORMAT, SAVEFS, LOADFS, and an easter egg or two.
 
 #### Does it work on other calculators?
 
@@ -58,4 +58,4 @@ Don't expect much from someone who vibecoded a Python script. The C: drive is re
 
 Executables are only simulated, so no.
 
-## Note: even though you can build something similar in 10 minutes, I believe that having a dedicated repo for this script can inspire someone to build a better implementation of this idea. Maybe an add-in made using fxSDK. Who knows?
+### Note: even though you can build something similar in 10 minutes, I believe that having a dedicated repo for this script can inspire someone to build a better implementation of this idea. Maybe an add-in made using the fxSDK platform. Who knows?
