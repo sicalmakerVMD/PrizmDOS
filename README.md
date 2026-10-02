@@ -24,7 +24,7 @@ MS-DOS simulator for the CASIO Prizm calculator line, written in MicroPython.
 
 ## Contributing
 
-You're welcome to edit PrizmDOS' source code and improve its overall functionality. If you wish to see what you made in future updates, feel free to drop a pull request!
+You're welcome to edit PrizmDOS' source code and improve its overall functionality. If you wish to see what you made in future updates (if I ever make any), feel free to drop a pull request!
 
 
 ## FAQ
@@ -48,3 +48,5 @@ Don't expect much from someone who vibecoded a Python script. The C: drive is re
 #### Can I run real .EXE or .COM programs?
 
 Executables are only simulated, so no.
+
+## Note: even though you can build something similar in 10 minutes, I believe that having a dedicated repo for this script can inspire someone to build a better implementation of this idea. Maybe an add-in made using fxSDK. Who knows?
