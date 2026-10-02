@@ -6,7 +6,7 @@ MS-DOS simulator for the CASIO Prizm calculator line, written in MicroPython.
 
 ## Features
 
-- File and directory management with DIR, CD, MD, RD COPY, DEL, REN, MOVE TYPE, TREE, and DELTREE.
+- File and directory management with DIR, CD, MD, RD, COPY, DEL, REN, MOVE TYPE, TREE, and DELTREE.
 - Wildcard support with ? and *.
 - Environment variables with SET, PATH, and %VAR% expansion.
 - Customizable command prompt using $P, $G, and $N prompt codes.
@@ -36,6 +36,10 @@ No. PrizmDOS is a simulation. It recreates the behavior and appearance of select
 #### What commands are supported?
 
 Use HELP inside PrizmDOS to see the available commands.DIR, CD, MD, RD, COPY, DEL, REN, MOVE, TYPE, TREE, EDIT, FIND, SET, PATH, PROMPT, FORMAT, SAVEFS, LOADFS, and an easter egg or two.
+
+#### Does it work on other calculators?
+
+Yes. On any Python-based interpreter. The script is just tailored to fit the PRIZM's screen height and width, but, yes, you can test. Feedback is appreciated!
 
 #### Does it support batch files?
 
