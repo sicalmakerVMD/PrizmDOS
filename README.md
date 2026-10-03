@@ -18,7 +18,7 @@ MS-DOS simulator tailored for the CASIO Prizm calculator line, written in MicroP
 - Disk persistance using SAVEFS and LOADFS.
 - Formatting simulation through FORMAT C:
 ## How to set up
-Connect your CASIO Prizm calculator via USB. When prompted, press F1. Your calculator will act as a flash drive. Drop PrizmDOSv1.py to any folder of your choice, inside the calculator. Then, eject and enjoy!
+Connect your CASIO Prizm calculator via USB. When prompted, press F1. Your calculator will act as a flash drive. Drop PrizmDOSv1.py to any folder of your choice, inside the calculator. Then, eject "le calculator", open the Python add-in and run the script. Don't run the command whose name is the same as the Prizm's OS!
 ## Authors
 
 - [@sicalmakervmd](https://www.github.com/sicalmakervmd)
