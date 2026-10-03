@@ -1,7 +1,7 @@
 
 # PrizmDOS
 
-MS-DOS simulator tailored the CASIO Prizm calculator line, written in MicroPython.
+MS-DOS simulator tailored for the CASIO Prizm calculator line, written in MicroPython.
 
 
 ## Features
